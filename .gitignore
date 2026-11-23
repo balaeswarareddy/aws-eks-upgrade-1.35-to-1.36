@@ -1,0 +1,28 @@
+# Kubernetes backup exports
+eks-backup/
+
+# AWS credentials and Kubernetes configuration
+.aws/
+.kube/
+kubeconfig
+kubeconfig.*
+credentials
+
+# Terraform files and sensitive state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# Environment and secret files
+.env
+.env.*
+*secret*.yaml
+*secret*.yml
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
